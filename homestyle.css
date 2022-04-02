@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1mm;
+}
+.logo-name{
+    background-color: white;
+    padding: 15%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.logo-name img{
+    height: 80%;
+    width: 80%;
+}
+.side-bar{
+    position: fixed;
+    background: rgb(10, 181, 248);
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.ul li:hover{
+    background: rgb(162, 215, 236);
+    cursor: pointer;
+}
